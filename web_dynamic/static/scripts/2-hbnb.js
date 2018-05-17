@@ -1,17 +1,16 @@
 $(document).ready(function () {
-  let url = "http://0.0.0.0:5001/api/v1/status/";
-  $.get(url, function(data, textStatus) {
-    if (textStatus == 'success') {
-      $('#api_status').addClass("available");
-    }
-    else {
-      $('#api_status').removeClass("available");
+  let url = 'http://0.0.0.0:5001/api/v1/status/';
+  $.get(url, function (data, textStatus) {
+    if (textStatus === 'success') {
+      $('#api_status').addClass('available');
+    } else {
+      $('#api_status').removeClass('available');
     }
   });
   let amenities = [];
   $('input:checkbox').change(
     function () {
-      /*console.log(this);*/
+      /* console.log(this); */
       if ($(this).is(':checked')) {
         amenities.push(this);
       } else {
