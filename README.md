@@ -218,6 +218,7 @@ github repo
 * Carrie Ybay, [hicarrie](https://github.com/hicarrie) | [@hicarrie_](https://twitter.com/hicarrie_)
 * Jared Heck, [jarehec](https://github.com/jarehec) | [@jarehec](https://twitter.com/jarehec)
 * Lindsey Hemenez, [hemenez](https://github.com/hemenez) | [@itslindseydrew](https://twitter.com/itslindseydrew)
+* Binita Rai, [rayraib](https://github.com/rayraib)
 
 ## License
 
